@@ -1,0 +1,326 @@
+header{
+    background: linear-gradient(to right, #2a3d66, navy);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 1.5em;
+    padding: 15px 0;
+    width: 100%;
+    height: 100px;
+    
+}
+
+body{
+    background-image: url('https://static.videezy.com/system/resources/thumbnails/000/055/050/original/dark-blue-bg.jpg');
+    font-family: 'Segoe UI';
+    color: white;
+    height: 100vh
+}
+
+img{
+    width: 400px;
+    height: 500px;
+}
+
+.container {
+    display: flex; 
+    align-items: center; 
+    padding: 20px;
+}
+
+.container img {
+    width: 500px; 
+    height: auto;
+    margin-right: 140px; 
+}
+
+.container .text {
+    max-width: 500px; 
+}
+
+.inicio{
+    text-align: center;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+h1{
+    font-size: 3em;
+}
+
+.ana{
+    font-size: 3em;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: navy;
+}
+
+.frame{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.n{
+    font-size: 3em;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.a {
+    list-style-type: disc; 
+    padding-left: 20px; 
+    font-size: 1.2em;
+    color: #555;
+    text-align: center; 
+    margin: 0 auto; 
+    width: fit-content; 
+}
+
+.s{
+    font-size: 2em;
+}
+
+.a li {
+    margin-bottom: 10px; 
+}
+.oi{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 3em;
+}
+
+fieldset.sabia {
+    border: 2px solid #2a3d66;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 100%px;
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+    margin-left: 20px;  
+}
+
+fieldset.sabia p {
+    font-size: 1.3em;
+    line-height: 1.6;
+    color: navy;
+    text-align: justify;
+}
+
+fieldset.sabia ul {
+    font-size: 1.3em;
+    line-height: 1.6;
+    color: navy;
+    text-align: justify;
+}
+
+fieldset.sabia legend {
+    font-size: 4em;
+    color: navy;
+    font-weight: bold;
+    padding: 0 10px;
+    text-shadow: 
+    2px 2px 4px rgb(255, 255, 255),  
+    -2px -2px 4px rgba(255, 255, 255, 0.7), 
+    2px -2px 4px rgba(255, 255, 255, 0.7),  
+    -2px 2px 4px rgba(255, 255, 255, 0.7);
+}
+
+.servico p {
+    font-size: 1.3em;
+    line-height: 1.6;
+    color: navy;
+    text-align: justify;
+}
+
+.servico legend{
+    font-size: 3em;
+    color: navy;
+    font-weight: bold;
+    padding: 0 10px;
+    text-shadow: 
+    2px 2px 4px rgb(255, 255, 255),  
+    -2px -2px 4px rgba(255, 255, 255, 0.7), 
+    2px -2px 4px rgba(255, 255, 255, 0.7),  
+    -2px 2px 4px rgba(255, 255, 255, 0.7);
+}
+
+.servico  {
+    border: 2px solid #2a3d66;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 100%px;
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body .c {
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 35px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  body .c .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    background: navy;
+    border-radius: 15px;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+  }
+
+  footer{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: navy;
+    padding: 10px;
+    width: 100%;
+  }
+
+  body .c .card .face {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .c .card .face.face1 {
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  body .c .card .face.face1 h2 {
+    margin: 0;
+    padding: 0;
+  }
+  body .c .card .face.face1 .java {
+    background-color: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  body .c .card .face.face1 .python {
+    background-color: #ffffff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  body .c .card .face.face1 .cSharp {
+    background-color: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  body .c .card .face.face2 {
+    transition: 0.5s;
+  }
+  body .c .card .face.face2 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 10em;
+    color: #fff;
+    transition: 0.5s;
+    text-shadow: 0 2px 5px pink;
+    z-index: 10;
+  }
+  body .c .card:hover .face.face2 {
+    height: 60px;
+  }
+  body .c .card:hover .face.face2 h2 {
+    font-size: 2em;
+  }
+  body .c .card:nth-child(1) .face.face2 {
+    background-image: linear-gradient(40deg, white 0%, navy 45%, black 100%);
+    border-radius: 15px;
+  }
+  body .c .card:nth-child(2) .face.face2 {
+    background-image: linear-gradient(40deg, white 0%, navy 45%, black 100%);
+    border-radius: 15px;
+  }
+  body .c .card:nth-child(3) .face.face2 {
+    background-image: linear-gradient(40deg, white 0%, navy 45%, black 100%);
+    border-radius: 15px;
+  }
+
+  .clientes{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .clientes.p{
+    font-size: 1.3em;
+  }
+
+  
+form {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #f9f9f9;  
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+}
+
+label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+}
+
+/* Foco nos campos */
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    border-color: #4CAF50;  /* Cor de destaque quando o campo está em foco */
+    outline: none;  /* Remove o contorno padrão */
+}
+
+
+textarea {
+    height: 120px;  
+    resize: vertical;  
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: navy;  
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: navy;  
+}
